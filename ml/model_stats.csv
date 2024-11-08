@@ -1,0 +1,7 @@
+,model_name,best_params,best_score
+0,svm,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",0.9816263190564867
+1,decision_tree,{'criterion': 'gini'},0.8213500931098696
+2,random_forest,"{'criterion': 'gini', 'n_estimators': 100}",0.9493544382371197
+3,log_reg,"{'penalty': 'l1', 'solver': 'saga'}",0.9370949720670391
+4,gaussian_nb,{},0.8113904407200497
+5,multinomial_nb,{},0.8797858472998138
