@@ -2,7 +2,7 @@ import requests
 import json
 
 
-url = "http://127.0.0.1:8080"
+url = "http://fastapi:8080"
 
 def button_availability(make,vehicle_class,cylinders,transmission,fuel_type,engine_size,fuel_consumption,gear):
     if None in [make,vehicle_class,cylinders,transmission,fuel_type,engine_size,fuel_consumption,gear]:
