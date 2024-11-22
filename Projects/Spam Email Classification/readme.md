@@ -50,3 +50,22 @@ The model's performance is evaluated using the following metrics:
 - **Precision & Recall:** Measure how effectively the model identifies spam emails.
 
 ---
+
+## NOTES
+
+### Frontend Request URL Configuration
+
+In `client/utils.py`, url = `http://fastapi:8080`
+
+- **When running locally (outside Docker Compose)**:  
+  Use the local URL:  
+  `http://127.0.0.1:8080`
+
+- **When running with Docker Compose**:  
+  Update the frontend's request URL to:  
+  `http://fastapi:8080`  
+  This is the internal URL provided by Docker Compose for the FastAPI service within the shared Docker network.
+
+> **Note**: The `fastapi` hostname works only when both FastAPI and Streamlit services are running within the same Docker Compose network.
+
+---
