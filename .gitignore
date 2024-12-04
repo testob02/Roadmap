@@ -1,3 +1,6 @@
 __pycache__
 groq_api_key.py
 .env
+*.JPG
+*.png
+*.jpeg
