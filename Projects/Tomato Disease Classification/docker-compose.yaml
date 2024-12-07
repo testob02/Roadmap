@@ -1,0 +1,14 @@
+services:
+  fastapi:
+    image: olamilekan02/tomato-server:1.0
+    ports:
+      - 8080:8080
+    container_name: tomato-server
+
+  streamlit:
+    image: olamilekan02/tomato-ui:1.0
+    ports:
+      - 8000:8000
+    container_name: tomato-ui
+    depends_on:
+      - fastapi
