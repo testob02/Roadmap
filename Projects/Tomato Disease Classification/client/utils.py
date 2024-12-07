@@ -3,7 +3,7 @@ import base64
 import json
 
 
-url = "http://localhost:8000"
+url = "http://fastapi:8080"
 
 
 def classify(file_uploader):
