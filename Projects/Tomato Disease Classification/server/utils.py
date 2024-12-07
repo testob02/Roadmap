@@ -16,7 +16,11 @@ def load_artifacts():
     global __model
     global __labels
     
-    __model = tf.keras.models.load_model('./artifacts/model/')
+    model_layer = tf.keras.layers.TFSMLayer("./artifacts/model/", call_endpoint="serving_default")
+
+    __model = tf.keras.Sequential([
+        model_layer
+                        ])
     with open('./artifacts/labels.json') as f:
         __labels = json.load(f)
 
@@ -26,6 +30,7 @@ def classify(request):
     image = tf.io.decode_image(image_bytes,channels=3)
     image = tf.expand_dims(image,0)
     probs = __model.predict(image,verbose=False)
+    probs = probs['dense_2']
     probs = tf.squeeze(probs)
     index = tf.argmax(probs,axis=-1).numpy()
     pred_class = __labels['class_names'][index]
