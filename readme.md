@@ -6,9 +6,9 @@ This repository contains my progress and projects completed while following the 
 
 ## Roadmap
 
-Below is an image of the AI Engineer Roadmap that I followed to complete these projects:
+Below is the AI Engineer Roadmap that I followed to complete these projects:
 
-[AI Engineer Roadmap]('/AI_Engineer_Roadmap.pdf')
+[AI Engineer Roadmap]('https://github.com/testob02/Roadmap/blob/main/AI_Engineer_Roadmap.pdf')
 
 ---
 
