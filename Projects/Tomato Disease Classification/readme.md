@@ -6,6 +6,12 @@ This project focuses on identifying various diseases in tomato leaves using deep
 
 ---
 
+## Project Site
+
+Explore the project here: [Project Site](http://16.171.43.89:8000)
+
+---
+
 ## Problem Statement
 
 Tomato crops are vulnerable to various diseases that can significantly reduce yield. Early detection of these diseases is crucial for effective management. This project aims to develop a model that automatically classifies diseases in tomato leaves, helping farmers to take timely actions and improve crop health.
