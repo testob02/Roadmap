@@ -21,7 +21,7 @@ Here are the projects I completed as part of this roadmap:
    **Explore the project site:** [Spam Email Classification](http://16.171.43.191:8000)
 
 2. **Vehicle Emission Prediction**  
-   A machine learning project to predict vehicle CO2 emissions using a regression model based on vehicle features.  
+   A machine learning project to predict vehicle CO<sub>2</sub> emissions using a regression model based on vehicle features.  
    **Explore the project site:** [Vehicle Emission Prediction](http://16.171.171.89:8000)
 
 3. **Tomato Disease Classification**  
